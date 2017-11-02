@@ -1,0 +1,20 @@
+[
+  {
+    "id": "BIPEditor",
+    "title": "BIP Editor",
+    "panel": "panels/ModelEditor/ModelEditorPanel",
+    "DEBUG_ONLY": false
+  },
+  {
+    "id": "BIPExecutionViz",
+    "title": "BIP Engine Execution",
+    "panel": "panels/BIPExecutionViz/BIPExecutionVizPanel",
+    "DEBUG_ONLY": false
+  },
+  {
+    "id": "BIPCodeEditor",
+    "title": "BIPCodeEditor",
+    "panel": "panels/BIPCodeEditor/BIPCodeEditorPanel",
+    "DEBUG_ONLY": false
+  }
+]

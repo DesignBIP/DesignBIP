@@ -1,0 +1,51 @@
+{
+  "name": "webgme-bip",
+  "description": "Design studio for component-based modeling with BIP.",
+  "author": {
+    "name": "DesignBIP",
+    "url": "https://github.com/DesignBIP"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DesignBIP/DesignBIP"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "node ./node_modules/mocha/bin/mocha --recursive test",
+    "test_cover": "node ./node_modules/istanbul/lib/cli.js --hook-run-in-context cover node_modules/mocha/bin/_mocha -- -R spec --timeout 100000 --recursive test",
+    "apply": "node ./node_modules/webgme/src/bin/apply.js",
+    "diff": "node ./node_modules/webgme/src/bin/diff.js",
+    "export": "node ./node_modules/webgme/src/bin/export.js",
+    "import": "node ./node_modules/webgme/src/bin/import.js",
+    "merge": "node ./node_modules/webgme/src/bin/merge.js",
+    "plugin": "node ./node_modules/webgme/src/bin/run_plugin.js",
+    "pluginHook": "node ./node_modules/webgme/src/bin/plugin_hook.js",
+    "users": "node ./node_modules/webgme/src/bin/usermanager.js",
+    "clean_up": "node ./node_modules/webgme/src/bin/clean_up.js",
+    "postinstall": "bower install"
+  },
+  "version": "1.2.0",
+  "keywords": [
+    "webgme",
+    "bip",
+    "behavior-interaction-priority",
+    "webgme-domain"
+  ],
+  "peerDependencies": {
+    "webgme": "^2.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "rimraf": "^2.4.0",
+    "chai": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "jscs": "3.0.7",
+    "jshint": "2.9.3",
+    "webgme-bip-editors": ">=0.2.0"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "webgme-docker-worker-manager": "^0.1.0"
+  },
+  "license": "MIT"
+}

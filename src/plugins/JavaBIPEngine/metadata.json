@@ -1,0 +1,37 @@
+{
+  "id": "JavaBIPEngine",
+  "name": "JavaBIPEngine",
+  "version": "0.1.0",
+  "description": "",
+  "icon": {
+    "class": "glyphicon glyphicon-cog",
+    "src": ""
+  },
+  "disableServerSideExecution": false,
+  "disableBrowserSideExecution": false,
+  "writeAccessRequired": false,
+  "configWidget":"plugin/JavaBIPEngine/JavaBIPEngine/Widgets/ConfigWidget",
+  "configStructure": [
+    {
+      "name": "transitions",
+      "displayName": "Transitions",
+      "description": "Please give value for number of total transitions that must be executed by the JavaBIPEngine.",
+      "value": 50,
+      "valueType": "integer",
+      "minValue": 1,
+      "readOnly": false,
+      "writeAccessRequired": true
+    },
+   {
+     "name": "cardinality",
+     "displayName": "Cardinality",
+     "description": "Please give value for cardinality.",
+     "value": 3,
+     "valueType": "integer",
+     "minValue": 1,
+     "maxValue": 10000,
+     "readOnly": false,
+     "writeAccessRequired": true
+   }
+ ]
+}

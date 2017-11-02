@@ -1,0 +1,72 @@
+{
+  "components": {
+    "plugins": {
+      "ArchitectureSpecGenerator": {
+        "src": "src/plugins/ArchitectureSpecGenerator",
+        "test": "test/plugins/ArchitectureSpecGenerator"
+      },
+      "BehaviorSpecGenerator": {
+        "src": "src/plugins/BehaviorSpecGenerator",
+        "test": "test/plugins/BehaviorSpecGenerator"
+      },
+      "JavaBIPEngine": {
+        "src": "src/plugins/JavaBIPEngine",
+        "test": "test/plugins/JavaBIPEngine"
+      }
+    },
+    "seeds": {
+      "BIPv1": {
+        "src": "src/seeds/BIPv1"
+      }
+    },
+    "visualizers": {
+      "BIPCodeEditor": {
+        "src": "panels/BIPCodeEditor/BIPCodeEditorPanel",
+        "title": "BIPCodeEditor",
+        "panel": "src/visualizers/panels/BIPCodeEditor",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/BIPCodeEditor"
+      }
+    },
+    "decorators": {
+      "BIPComponentTypeDecorator": {
+        "src": "src/decorators/BIPComponentTypeDecorator"
+      },
+      "BIPConnectorEndDecorator": {
+        "src": "src/decorators/BIPConnectorEndDecorator"
+      },
+      "BIPStateDecorator": {
+        "src": "src/decorators/BIPStateDecorator"
+      }
+    },
+    "addons": {},
+    "layouts": {},
+    "routers": {}
+  },
+  "dependencies": {
+    "plugins": {},
+    "seeds": {},
+    "visualizers": {
+      "BIPEditor": {
+        "src": "panels/ModelEditor/ModelEditorPanel",
+        "title": "BIP Editor",
+        "panel": "src/visualizers/panels/ModelEditor",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/ModelEditor",
+        "project": "webgme-bip-editors"
+      },
+      "BIPExecutionViz": {
+        "src": "panels/BIPExecutionViz/BIPExecutionVizPanel",
+        "title": "BIPExecutionViz",
+        "panel": "src/visualizers/panels/BIPExecutionViz",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/BIPExecutionViz",
+        "project": "webgme-bip-editors"
+      }
+    },
+    "decorators": {},
+    "addons": {},
+    "layouts": {},
+    "routers": {}
+  }
+}
