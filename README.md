@@ -27,7 +27,6 @@ DesignBIP is a web-based, collaborative, modeling and execution environment for 
 
 * Embeddable documentation at every level of the model
 
-
 ## How to install DesignBIP?
 First, install the following:
 - [NodeJS](https://nodejs.org/en/download/) (v4.x.x recommended)
