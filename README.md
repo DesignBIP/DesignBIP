@@ -4,28 +4,36 @@ This repository contains the implementation of DesignBIP, which a design studio 
 
 ## Contents
 1. [What is DesignBIP?](#what-is-designbip)
-    1. [Features](#features)
-2. [How to install DesignBIP](#how-to-install-designbip)
-3. [What is BIP](#what-is-bip)
+    1. [Features of the Design Studio](#features)
+2. [How to install DesignBIP?](#how-to-install-designbip)
+3. [What is BIP?](#what-is-bip)
 
 ## What is DesignBIP?
 DesignBIP is a web-based, collaborative, modeling and execution environment for building concurrent systems using the BIP component framework. DesignBIP allows specifying BIP interaction and behavior models in a graphical way and generating the equivalent code. DesignBIP provides model repositories, design guidance services, code generators and integration with the BIP tool-set.
 
 ### Features
 
-* Collaborative, automatically versioned web-based development
+* Collaborative, automatically versioned web-based development.
 
-* Model-based framework for developing hardware and software
+![Project history view with branching and tagging](./img/S1.png)
 
-* Fully integrated Java code development
+* Dedicated BIP model editors.
 
-* Fully integrated code generation
+![BIP model editors](./img/S2.png)
 
-* Fully integrated code compilation and execution
+* Fully integrated Java code development.
 
-* Execution visualization
+![Java development](./img/S3.png)
 
-* Embeddable documentation at every level of the model
+* Fully integrated code compilation, execution with the integrated BIP-engine tool and visualization.
+
+![BIP-engine integration](./img/S4.png)
+
+* Model repositories for architecture styles.
+
+![Architecture Styles](./img/S5.png)
+
+* Embeddable documentation at every level of the model (shown previously).
 
 ## How to install DesignBIP?
 First, install the following:
