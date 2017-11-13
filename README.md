@@ -21,11 +21,11 @@ DesignBIP is a web-based, collaborative, modeling and execution environment for 
 
 ![BIP model editors](./img/S2.png)
 
-* Fully integrated Java code development.
+* Fully integrated Java and BIP code development.
 
 ![Java development](./img/S3.png)
 
-* Fully integrated code compilation, execution with the integrated BIP-engine tool and visualization.
+* Fully integrated code compilation, execution with the integrated BIP-engine and visualization.
 
 ![BIP-engine integration](./img/S4.png)
 
